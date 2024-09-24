@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #4285f4;
+}
+
+.search-bar, .advanced-search-bar {
+    width: 80%;
+    padding: 10px;
+    border-radius: 24px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.search-button, .advanced-search-button, .feeling-lucky-button {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 24px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #4285f4;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}

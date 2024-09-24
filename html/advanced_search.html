@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google 高级搜索</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Google 高级搜索</h1>
+        <form action="https://www.google.com/search" method="GET">
+            <label for="all-words">包含以下所有单词：</label>
+            <input type="text" id="all-words" name="q" class="advanced-search-bar">
+            
+            <label for="exact-phrase">精确短语：</label>
+            <input type="text" id="exact-phrase" name="exact" class="advanced-search-bar">
+            
+            <label for="any-words">任意单词：</label>
+            <input type="text" id="any-words" name="any" class="advanced-search-bar">
+            
+            <label for="none-words">排除以下单词：</label>
+            <input type="text" id="none-words" name="none" class="advanced-search-bar">
+            <br>
+            <button type="submit" class="advanced-search-button">高级搜索</button>
+        </form>
+        <div class="links">
+            <a href="index.html">Google 搜索</a>
+        </div>
+    </div>
+</body>
+</html>
